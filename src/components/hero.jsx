@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { BsFacebook, BsTwitter, BsInstagram } from "react-icons/bs";
 import { FaLinkedin } from "react-icons/fa";
-import HeroPic from "../assets/heroPic.jpg";
+import Profile from "../assets/Profilepic.jpg";
 
 const Hero = () => {
   const [showMore, setShowMore] = useState(false); // State to toggle 'Show more'
@@ -27,7 +27,7 @@ const Hero = () => {
       {/* Image Section */}
       <div className="w-1/3 items-center ssm:w-fit">
         <img 
-          src={HeroPic} 
+          src={Profile} 
           alt="Alola Sunday Joseph's portrait" 
           width={250} 
           height={250} 

@@ -1,7 +1,7 @@
 import React from 'react'
-import Project1 from '../assets/project1.jpg'
-import Project2 from '../assets/project2.jpg'
-import Project3 from '../assets/project3.jpg'
+import App1 from '../assets/app1.jpg'
+import App2 from '../assets/app2.jpg'
+import App3 from '../assets/app3.jpg'
 import Project4 from '../assets/project4.jpg'
 //import project from "../assets/project_back.png"
 
@@ -29,7 +29,7 @@ export default function Project() {
                           </p>
                       </div>
                        <div className="md:shrink-0 p-5 w-40 h-40">
-                        <img src={Project1} alt="project1" className="w-full h-full rounded-full" />
+                        <img src={App1} alt="project1" className="w-full h-full rounded-full" />
                        </div>
                    </div>
                 </div>
@@ -37,7 +37,7 @@ export default function Project() {
                   
                   <div className="md:flex">
                   <div className="md:shrink-0 p-5 w-40 h-40">
-                       <img src={Project2} alt="project1" className="w-full h-full rounded-full" />
+                       <img src={App2} alt="project1" className="w-full h-full rounded-full" />
                       </div>
                      <div className="p-8">
                         <div className="uppercase tracking-wide text-sm to-indigo-500 font-semibold">
@@ -69,7 +69,7 @@ export default function Project() {
                           </p>
                       </div>
                        <div className="md:shrink-0 p-5 w-40 h-40">
-                        <img src={Project3} alt="project1" className="w-full h-full rounded-full" />
+                        <img src={App3} alt="project1" className="w-full h-full rounded-full" />
                        </div>
                    </div>
                 </div>

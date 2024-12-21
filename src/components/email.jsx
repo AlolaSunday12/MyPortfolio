@@ -51,7 +51,7 @@ const ContactForm = () => {
           />
         </div>
         <div className="mb-4">
-          <label htmlFor="email" className="block mb-2">Email</label>
+          <label htmlFor="email" className="block mb-2">Email Id</label>
           <input 
             id="email"
             type="email" 
