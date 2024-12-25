@@ -20,12 +20,12 @@ export default function Project() {
                    <div className="md:flex">
                       <div className="p-8">
                          <div className="uppercase tracking-wide text-sm to-indigo-500 font-semibold">
-                            Hospital Managaement
+                            Commerce
                          </div>
-                         <a href="https://github.com/AlolaSunday12/TODO-App" className="text-indigo-500 hover:underline">View Project</a>
+                         <a href="https://github.com/AlolaSunday12/comm-backend.git" className="text-indigo-500 hover:underline">View Project</a>
                           <p className="mt-2 text-slate-500">
-                          In publishing and graphic design, Lorem ipsum is a placeholder 
-                          text commonly used to demonstrate the visual form of a document 
+                          This is an online-shop design for convenient and secure
+                          shopping experiences. 
                           </p>
                       </div>
                        <div className="md:shrink-0 p-5 w-40 h-40">
@@ -45,8 +45,8 @@ export default function Project() {
                         </div>
                         <a href="https://github.com/AlolaSunday12/Blog-App" className="text-indigo-500 hover:underline">View Project</a>
                          <p className="mt-2 text-slate-500">
-                         In publishing and graphic design, Lorem ipsum is a placeholder 
-                         text commonly used to demonstrate the visual form of a document 
+                         This is a blog App design for writers, thinkers and storytellers
+                         to share their ideas, experience and expertise with world.
                          </p>
                      </div>
                       
@@ -60,12 +60,12 @@ export default function Project() {
                    <div className="md:flex">
                       <div className="p-8">
                          <div className="uppercase tracking-wide text-sm to-indigo-500 font-semibold">
-                            Human Managaement
+                            GoogleAuth
                          </div>
-                          <a href="https://github.com/AlolaSunday12/TODO-App" className="text-indigo-500 hover:underline">View Project</a>
+                          <a href="https://github.com/AlolaSunday12/GoogleAuth.git" className="text-indigo-500 hover:underline">View Project</a>
                           <p className="mt-2 text-slate-500">
-                          In publishing and graphic design, Lorem ipsum is a placeholder 
-                          text commonly used to demonstrate the visual form of a document 
+                          Google Auth is way to log in using Google accounts. By leveraging
+                          OAuth 2.0 and ensures users can authenticate without creating new passwords. 
                           </p>
                       </div>
                        <div className="md:shrink-0 p-5 w-40 h-40">

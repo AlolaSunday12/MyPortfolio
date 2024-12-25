@@ -32,7 +32,7 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="p-10 bg-sky-800 text-white max-w-lg mx-auto rounded-md">
+    <div className="p-10 bg-sky-800 m-20 text-white max-w-lg mx-auto rounded-md">
       <h1 className="text-3xl mb-6 text-center">Contact Me</h1>
       {success && <p className="text-green-500">Message sent successfully!</p>}
       {error && <p className="text-red-500">Error sending message. Please try again.</p>}

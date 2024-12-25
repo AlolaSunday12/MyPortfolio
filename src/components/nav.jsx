@@ -32,7 +32,7 @@ const Nav = () => {
     <>
       <div className="flex items-center justify-between p-10 lg:flex-row">
         <div>
-          <a href="#" className="text-white font-mono text-3xl tracking-wider flex items-center">
+          <a href="#" className="text-white font-mono text-3xl tracking-wider flex items-center cursor-default">
             <TbDatabaseExport className="mr-1 sm:mr-2" />
             <span>Myportfolio</span>
           </a>
@@ -41,7 +41,9 @@ const Nav = () => {
           <div className="ssm:hidden lg:block space-x-2">
             <a href="#skills" className="text-white hover:bg-indigo-800 rounded-full px-5 py-2 text-xl">Skills</a>
             <a href="#projects" className="text-white hover:bg-indigo-800 rounded-full px-5 py-2 text-xl">Projects</a>
-            <a href="https://docs.google.com/document/d/10VUuhJApaRrjylgW46fxbKUYeX1Ih5VP0jHxqNrMNTQ/edit?usp=sharing" target="_blank" rel="noopener noreferrer" className="text-white hover:bg-indigo-800 rounded-full px-5 py-2 text-xl">Resume</a>
+            <a href="/Resume.pdf" className="text-white hover:bg-indigo-800 rounded-full px-5 py-2 text-xl" target="_blank" rel="noopener noreferrer" onClick={closeMenu}>
+        Resume
+      </a>
           </div>
           <div className="ssm:block lg:hidden">
             {toggle ? (
@@ -73,7 +75,9 @@ const Nav = () => {
               <a href="#projects" onClick={closeMenu}>Projects</a>
             </li>
             <li className="text-white hover:bg-indigo-800 rounded-full px-5 py-2 text-xl mb-2 cursor-pointer">
-              <a href="https://docs.google.com/document/d/10VUuhJApaRrjylgW46fxbKUYeX1Ih5VP0jHxqNrMNTQ/edit?usp=sharing" onClick={closeMenu}>Resume</a>
+            <a href="/Resume.pdf" target="_blank" rel="noopener noreferrer" onClick={closeMenu}>
+        Resume
+      </a>
             </li>
           </ul>
         </div>

@@ -1,5 +1,5 @@
 import React from 'react';
-import { SiNodedotjs, SiMongodb, SiMysql } from 'react-icons/si';
+import { SiNodedotjs, SiMongodb, SiNestjs } from 'react-icons/si';
 import { BsGoogle, BsFacebook, BsGithub } from 'react-icons/bs';
 
 export default function Skills() {
@@ -12,22 +12,27 @@ export default function Skills() {
             <SiNodedotjs className="text-green-500 text-5xl mx-auto mb-2" />
             <span className="font-semibold text-lg">Node.js</span>
           </div>
+
+          <div className="p-4 bg-white rounded shadow hover:shadow-md transition">
+          <SiNestjs className="text-red-500 text-5xl mx-auto mb-2" />
+          <span className="font-semibold text-lg">NestJS</span>
+          </div>
+
           <div className="p-4 bg-white rounded shadow hover:shadow-md transition">
             <SiMongodb className="text-green-600 text-5xl mx-auto mb-2" />
             <span className="font-semibold text-lg">MongoDB</span>
           </div>
-          <div className="p-4 bg-white rounded shadow hover:shadow-md transition">
-            <SiMysql className="text-blue-500 text-5xl mx-auto mb-2" />
-            <span className="font-semibold text-lg">MySQL</span>
-          </div>
+
           <div className="p-4 bg-white rounded shadow hover:shadow-md transition">
             <BsGoogle className="text-red-500 text-5xl mx-auto mb-2" />
             <span className="font-semibold text-lg">OAuth (Google)</span>
           </div>
+
           <div className="p-4 bg-white rounded shadow hover:shadow-md transition">
             <BsFacebook className="text-blue-600 text-5xl mx-auto mb-2" />
             <span className="font-semibold text-lg">OAuth (Facebook)</span>
           </div>
+
           <div className="p-4 bg-white rounded shadow hover:shadow-md transition">
             <BsGithub className="text-black text-5xl mx-auto mb-2" />
             <span className="font-semibold text-lg">GitHub</span>

@@ -3,7 +3,6 @@ import Hero from "./hero";
 import Project from "./project";
 import Email from "./email";
 import Footer from "./footer";
-import Testimonials from "./testimonials";
 import Skills from "./skills";
 
 const main = () => {
@@ -13,8 +12,7 @@ const main = () => {
       <Hero/>
       <Project/>
       <Skills/>
-      <Email/>
-      <Testimonials/>
+      <Email/>      
       <Footer/>
     </div>
   )
