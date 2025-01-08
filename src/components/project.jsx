@@ -7,7 +7,7 @@ import Project4 from '../assets/project4.jpg';
 export default function Project() {
   return (
     <>
-      <div id="projects" className="bg-sky-800 p-5 lg:p-10 max-w-full">
+      <div id="projects" className="bg-sky-800 p-10 m-5 lg:m-10 lg:p-10 max-w-full">
         {/* Title Section */}
         <div className="grid justify-items-center mb-5 lg:mb-10">
           <h1 className="text-2xl lg:text-3xl text-white mt-5">Projects</h1>
