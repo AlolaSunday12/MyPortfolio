@@ -1,5 +1,4 @@
 import Main from "./components/main"
-//import background from "../src/assets/background.png"
 import background from "../src/assets/curr_background.png"
 
 const App = () => {
