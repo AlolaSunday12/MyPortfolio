@@ -17,7 +17,7 @@ const Nav = () => {
   useEffect(() => {
     const handleResize = () => {
       if (window.innerWidth >= 1024) {
-        setToggle(false);
+        setToggle(false);  // Close menu when resizing to desktop
       }
     };
 
@@ -30,54 +30,100 @@ const Nav = () => {
 
   return (
     <>
-      <div className="flex items-center justify-between p-10 lg:flex-row">
-        <div>
-          <a href="#" className="text-white font-mono text-3xl tracking-wider flex items-center cursor-default">
-            <TbDatabaseExport className="mr-1 sm:mr-2" />
-            <span>Myportfolio</span>
+      {/* Navbar Container */}
+      <div className="flex items-center justify-between px-5 py-4 lg:px-10 lg:py-4 lg:flex-row">
+        {/* Logo Section */}
+        <a
+  href="#"
+  className="text-white font-mono text-3xl sm:text-4xl md:text-5xl tracking-wider flex items-center cursor-default"
+>
+  <TbDatabaseExport className="mr-2 text-xl sm:text-2xl md:text-3xl ml-5" />
+  <span className="text-lg sm:text-xl md:text-2xl">Myportfolio</span>
+</a>
+
+
+        {/* Desktop Links */}
+        <div className="hidden lg:flex space-x-4">
+          <a
+            href="#skills"
+            className="text-white hover:bg-indigo-800 rounded-full px-4 py-2 text-lg"
+          >
+            Skills
+          </a>
+          <a
+            href="#projects"
+            className="text-white hover:bg-indigo-800 rounded-full px-4 py-2 text-lg"
+          >
+            Projects
+          </a>
+          <a
+            href="/Resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-white hover:bg-indigo-800 rounded-full px-4 py-2 text-lg"
+          >
+            Resume
           </a>
         </div>
-        <div className="flex space-x-4">
-          <div className="ssm:hidden lg:block space-x-2">
-            <a href="#skills" className="text-white hover:bg-indigo-800 rounded-full px-5 py-2 text-xl">Skills</a>
-            <a href="#projects" className="text-white hover:bg-indigo-800 rounded-full px-5 py-2 text-xl">Projects</a>
-            <a href="/Resume.pdf" className="text-white hover:bg-indigo-800 rounded-full px-5 py-2 text-xl" target="_blank" rel="noopener noreferrer" onClick={closeMenu}>
-        Resume
-      </a>
-          </div>
-          <div className="ssm:block lg:hidden">
-            {toggle ? (
-              <AiOutlineClose
-                onClick={closeMenu}
-                size={30}
-                className="text-white cursor-pointer"
-                aria-label="Close menu"
-              />
-            ) : (
-              <HiMenuAlt1
-                onClick={openMenu}
-                size={30}
-                className="text-white cursor-pointer"
-                aria-label="Open menu"
-              />
-            )}
-          </div>
+
+        {/* Mobile Menu Icon */}
+        <div className="lg:hidden">
+          {toggle ? (
+            <AiOutlineClose
+              onClick={closeMenu}
+              size={30}
+              className="text-white cursor-pointer"
+              aria-label="Close menu"
+            />
+          ) : (
+            <HiMenuAlt1
+              onClick={openMenu}
+              size={30}
+              className="text-white cursor-pointer"
+              aria-label="Open menu"
+            />
+          )}
         </div>
       </div>
 
+      {/* Mobile Menu */}
       {toggle && (
-        <div className="ssm:block lg:hidden flex justify-between ml-10" role="menu">
-          <ul>
-            <li className="text-white hover:bg-indigo-800 rounded-full px-5 py-2 text-xl mb-2 cursor-pointer">
-              <a href="#skills" onClick={closeMenu}>Skills</a>
+        <div
+          className=" top-0 left-0 w-full z-50 pt-6 pb-6 flex flex-col items-centre space-y-6"
+          role="menu"
+        >
+          
+
+          {/* Menu Items */}
+          <ul className="w-full text-start space-y-6 ml-5">
+            <li>
+              <a
+                href="#skills"
+                className="text-white hover:bg-indigo-800 rounded-full px-6 py-3 text-lg"
+                onClick={closeMenu}
+              >
+                Skills
+              </a>
             </li>
-            <li className="text-white hover:bg-indigo-800 rounded-full px-5 py-2 text-xl mb-2 cursor-pointer">
-              <a href="#projects" onClick={closeMenu}>Projects</a>
+            <li>
+              <a
+                href="#projects"
+                className="text-white hover:bg-indigo-800 rounded-full px-6 py-3 text-lg"
+                onClick={closeMenu}
+              >
+                Projects
+              </a>
             </li>
-            <li className="text-white hover:bg-indigo-800 rounded-full px-5 py-2 text-xl mb-2 cursor-pointer">
-            <a href="/Resume.pdf" target="_blank" rel="noopener noreferrer" onClick={closeMenu}>
-        Resume
-      </a>
+            <li>
+              <a
+                href="/Resume.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-white hover:bg-indigo-800 rounded-full px-6 py-3 text-lg"
+                onClick={closeMenu}
+              >
+                Resume
+              </a>
             </li>
           </ul>
         </div>
