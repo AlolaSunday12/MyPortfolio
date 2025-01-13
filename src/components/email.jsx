@@ -15,10 +15,10 @@ const ContactForm = () => {
     e.preventDefault();
 
     emailjs.send(
-      'service_7ryflws',      // Replace with your Service ID
-      'template_podvm13',     // Replace with your Template ID
+      'service_7ryflws',      // Service ID
+      'template_podvm13',     // Template ID
       formData,
-      'J4MAifF3MwhlOXYgV'     // Replace with your User ID (Public Key)
+      'J4MAifF3MwhlOXYgV'     // User ID (Public Key)
     )
     .then(() => {
       setSuccess(true);
