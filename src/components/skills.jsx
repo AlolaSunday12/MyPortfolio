@@ -6,12 +6,9 @@ export default function Skills() {
   return (
     <section id="skills" className="py-10 m-5 lg:m-10 bg-sky-800">
       <div className="max-w-5xl mx-auto px-4">
-        {/* Title */}
         <h2 className="text-2xl lg:text-3xl font-bold text-center text-white mb-6">Skills</h2>
         
-        {/* Skills Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 text-center">
-          {/* Skill Item 1 */}
           <div className="p-4 bg-white rounded shadow hover:shadow-md transition">
             <SiNodedotjs className="text-green-500 text-4xl lg:text-5xl mx-auto mb-2" />
             <span className="font-semibold text-sm lg:text-lg">Node.js</span>
