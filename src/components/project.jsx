@@ -8,16 +8,12 @@ export default function Project() {
   return (
     <>
       <div id="projects" className="bg-sky-800 p-10 m-5 lg:m-10 lg:p-10 max-w-full">
-        {/* Title Section */}
         <div className="grid justify-items-center mb-5 lg:mb-10">
           <h1 className="text-2xl lg:text-3xl text-white mt-5">Projects</h1>
         </div>
 
-        {/* Projects Section */}
         <div>
-          {/* First Row */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
-            {/* Project Card 1 */}
             <div className="bg-white rounded-xl shadow-md overflow-hidden hover:animate-pulse">
               <div className="flex flex-col lg:flex-row">
                 <div className="p-5 flex-1">
