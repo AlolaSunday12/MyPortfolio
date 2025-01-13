@@ -24,7 +24,6 @@ const Hero = () => {
         </p>
       </div>
 
-      {/* Image Section */}
       <div className="w-full lg:w-1/3 flex justify-center">
         <img
           src={Profile}
@@ -33,7 +32,6 @@ const Hero = () => {
         />
       </div>
 
-      {/* About Me Section */}
       <div className="w-full lg:w-1/3 text-center lg:text-left px-5">
         <p className="text-2xl sm:text-4xl mb-4">About me</p>
         <p className="text-sm sm:text-base text-slate-300">
@@ -42,7 +40,6 @@ const Hero = () => {
           from ALX Software Engineering.
         </p>
 
-        {/* Show More Section */}
         {showMore && (
           <p className="text-sm sm:text-base text-slate-300 mt-3">
             Proficient in backend development technologies with strong problem-solving skills 
@@ -51,7 +48,6 @@ const Hero = () => {
           </p>
         )}
 
-        {/* Toggle Button */}
         <button
           onClick={handleToggle}
           className="bg-white text-gray-950 px-5 sm:px-10 py-2 my-3 rounded-full hover:bg-indigo-800 hover:text-white"
