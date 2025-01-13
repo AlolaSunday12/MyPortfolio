@@ -86,7 +86,6 @@ const Nav = () => {
         </div>
       </div>
 
-      {/* Mobile Menu */}
       {toggle && (
         <div
           className=" top-0 left-0 w-full z-50 pt-6 pb-6 flex flex-col items-centre space-y-6"
@@ -94,7 +93,6 @@ const Nav = () => {
         >
           
 
-          {/* Menu Items */}
           <ul className="w-full text-start space-y-6 ml-5">
             <li>
               <a
