@@ -88,8 +88,8 @@ export default function Project() {
                     View Project
                   </a>
                   <p className="mt-2 text-slate-500">
-                    Google Auth is a way to log in using Google accounts. By leveraging OAuth
-                    2.0, it ensures users can authenticate without creating new passwords.
+                  Google Auth enables secure login using Google accounts via OAuth 2.0,
+                  eliminating the need for new passwords.
                   </p>
                 </div>
                 <div className="flex-1 p-5">
