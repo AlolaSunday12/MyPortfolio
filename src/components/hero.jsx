@@ -18,9 +18,9 @@ const Hero = () => {
         <h1 className="text-3xl sm:text-6xl">Alola Sunday Joseph</h1>
         <hr className="my-3" />
         <p className="mt-5 text-sm sm:text-xl text-slate-300 font-sans">
-          A backend developer with a degree in Information Technology and training from ALX Africa.
-          I specialize in Node.js and Express.js, focusing on building scalable web services.
-          Passionate about problem-solving and continuous learning in the tech space.
+        I am a backend developer with a degree in Information Technology and specialized training
+        from ALX Africa. With proficiency in Node.js/nestjs and Express.js, I excel in developing
+        scalable and efficient web services to meet diverse technical needs.
         </p>
       </div>
 
@@ -35,16 +35,15 @@ const Hero = () => {
       <div className="w-full lg:w-1/3 text-center lg:text-left px-5">
         <p className="text-2xl sm:text-4xl mb-4">About me</p>
         <p className="text-sm sm:text-base text-slate-300">
-          I'm a self-driven backend developer with a degree in Information Technology
-          from the National Open University of Nigeria (NOUN) and certified training
-          from ALX Software Engineering.
+        I am a self-driven backend developer with a degree in Information Technology and
+        certified training from ALX Software Engineering.
         </p>
 
         {showMore && (
           <p className="text-sm sm:text-base text-slate-300 mt-3">
-            Proficient in backend development technologies with strong problem-solving skills 
-            and hands-on experience building scalable applications. Passionate about delivering 
-            high-quality software solutions.
+            Proficient in backend development technologies, I bring strong problem-solving
+            skills and hands-on experience in building scalable applications. Passionate about
+            delivering high-quality and impactful software solutions.
           </p>
         )}
 
