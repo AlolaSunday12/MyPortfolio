@@ -1,3 +1,4 @@
+# personal portfolio
 # React + Vite
 
 # To start the project enter :
