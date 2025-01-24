@@ -17,7 +17,7 @@ const Hero = () => {
         <p className="text-2xl sm:text-4xl mb-3 text-slate-300">I'm</p>
         <h1 className="text-3xl sm:text-6xl">Alola Sunday Joseph</h1>
         <hr className="my-3" />
-        <p className="mt-5 text-sm sm:text-xl text-slate-300 font-sans">
+        <p className="mt-5 text-sm sm:text-base text-slate-300 font-sans">
         I am a backend developer with a degree in Information Technology and specialized training
         from ALX Africa. With proficiency in Node.js/nestjs and Express.js, I excel in developing
         scalable and efficient web services to meet diverse technical needs.
@@ -49,7 +49,7 @@ const Hero = () => {
 
         <button
           onClick={handleToggle}
-          className="bg-white text-gray-950 px-5 sm:px-10 py-2 my-3 rounded-full hover:bg-indigo-800 hover:text-white"
+          className="bg-white text-gray-950 px-5 sm:px-10 py-2 my-3 rounded-full hover:bg-slate-300 hover:text-black"
           aria-expanded={showMore}
         >
           {showMore ? "Show less" : "Show more..."}
@@ -58,16 +58,16 @@ const Hero = () => {
         {/* Social Media Icons */}
         <div className="flex flex-wrap justify-center lg:justify-start mt-5 gap-4">
           <a href="https://www.facebook.com/alola.sundayjoseph?mibextid=ZbWKwL" target="_blank" rel="noopener noreferrer">
-            <BsFacebook size={30} className="border-2 sm:border-4 hover:border-indigo-800 rounded-full" />
+            <BsFacebook size={50} className="border-2 sm:border-4 hover:border-stone-950 rounded-full" />
           </a>
           <a href="https://x.com/FemiGeo63489636?t=DGN3c0JvJufJQFboqyjbLg&s=09" target="_blank" rel="noopener noreferrer">
-            <BsTwitter size={30} className="border-2 sm:border-4 hover:border-indigo-800 rounded-full" />
+            <BsTwitter size={50} className="border-2 sm:border-4 hover:border-stone-950 rounded-full" />
           </a>
           <a href="https://www.instagram.com/sunnyjose1234/profilecard/?igsh=MWlzZ2c4djVwMm12dQ==" target="_blank" rel="noopener noreferrer">
-            <BsInstagram size={30} className="border-2 sm:border-4 hover:border-indigo-800 rounded-full" />
+            <BsInstagram size={50} className="border-2 sm:border-4 hover:border-stone-950 rounded-full" />
           </a>
           <a href="http://www.linkedin.com/in/sunny-jose-162609262" target="_blank" rel="noopener noreferrer">
-            <FaLinkedin size={30} className="border-2 sm:border-4 hover:border-indigo-800 rounded-full" />
+            <FaLinkedin size={50} className="border-2 sm:border-4 hover:border-stone-950 rounded-full" />
           </a>
         </div>
       </div>
