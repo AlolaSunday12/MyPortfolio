@@ -47,7 +47,7 @@ const ContactForm = () => {
             onChange={handleChange} 
             required 
             autoComplete="name"
-            className="w-full p-2 rounded-md text-black"
+            className="w-full p-2 rounded-md text-black hover:animate-pulse"
           />
         </div>
         <div className="mb-4">
@@ -60,7 +60,7 @@ const ContactForm = () => {
             onChange={handleChange} 
             required 
             autoComplete="email"
-            className="w-full p-2 rounded-md text-black"
+            className="w-full p-2 rounded-md text-black hover:animate-pulse"
           />
         </div>
         <div className="mb-4">
@@ -72,12 +72,12 @@ const ContactForm = () => {
             onChange={handleChange} 
             required 
             autoComplete="off"
-            className="w-full h-32 p-2 rounded-md text-black"
+            className="w-full h-32 p-2 rounded-md text-black hover:animate-pulse"
           ></textarea>
         </div>
         <button 
           type="submit" 
-          className="bg-gray-950 w-full py-2 rounded-md hover:bg-indigo-800"
+          className="bg-gray-800 w-full py-2 rounded-md hover:bg-slate-400 hover:text-black"
         >
           Send Message
         </button>
