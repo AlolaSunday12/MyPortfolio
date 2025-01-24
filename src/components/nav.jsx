@@ -31,7 +31,7 @@ const Nav = () => {
   return (
     <>
       {/* Navbar Container */}
-      <div className="flex items-center justify-between px-5 py-4 lg:px-10 lg:py-4 lg:flex-row">
+      <div className="flex items-center justify-between bg-slate-800 px-5 py-4 lg:px-10 lg:py-4 lg:flex-row">
         {/* Logo Section */}
         <a
   href="#"
@@ -46,13 +46,13 @@ const Nav = () => {
         <div className="hidden lg:flex space-x-4">
           <a
             href="#skills"
-            className="text-white hover:bg-indigo-800 rounded-full px-4 py-2 text-lg"
+            className="text-white hover:bg-stone-300 hover:text-black rounded-full px-4 py-2 text-lg"
           >
             Skills
           </a>
           <a
             href="#projects"
-            className="text-white hover:bg-indigo-800 rounded-full px-4 py-2 text-lg"
+            className="text-white hover:bg-stone-300 hover:text-black rounded-full px-4 py-2 text-lg"
           >
             Projects
           </a>
@@ -60,7 +60,7 @@ const Nav = () => {
             href="/Resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-white hover:bg-indigo-800 rounded-full px-4 py-2 text-lg"
+            className="text-white hover:bg-stone-300 hover:text-black rounded-full px-4 py-2 text-lg"
           >
             Resume
           </a>
@@ -88,7 +88,7 @@ const Nav = () => {
 
       {toggle && (
         <div
-          className=" top-0 left-0 w-full z-50 pt-6 pb-6 flex flex-col items-centre space-y-6"
+          className="bg-slate-800 top-0 left-0 w-full z-50 pt-6 pb-6 flex flex-col items-centre space-y-6"
           role="menu"
         >
           
@@ -97,7 +97,7 @@ const Nav = () => {
             <li>
               <a
                 href="#skills"
-                className="text-white hover:bg-indigo-800 rounded-full px-6 py-3 text-lg"
+                className="text-white hover:bg-stone-300 hover:text-black rounded-full px-6 py-3 text-lg"
                 onClick={closeMenu}
               >
                 Skills
@@ -106,7 +106,7 @@ const Nav = () => {
             <li>
               <a
                 href="#projects"
-                className="text-white hover:bg-indigo-800 rounded-full px-6 py-3 text-lg"
+                className="text-white hover:bg-stone-300 hover:text-black rounded-full px-6 py-3 text-lg"
                 onClick={closeMenu}
               >
                 Projects
@@ -117,7 +117,7 @@ const Nav = () => {
                 href="/Resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-white hover:bg-indigo-800 rounded-full px-6 py-3 text-lg"
+                className="text-white hover:bg-stone-300 hover:text-black rounded-full px-6 py-3 text-lg"
                 onClick={closeMenu}
               >
                 Resume
