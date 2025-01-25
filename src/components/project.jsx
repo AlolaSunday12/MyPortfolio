@@ -2,7 +2,7 @@ import React from 'react';
 import App1 from '../assets/app1.jpg';
 import App2 from '../assets/app2.jpg';
 import App3 from '../assets/app3.jpg';
-import Project4 from '../assets/project4.jpg';
+import App4 from '../assets/png6.jpg';
 
 export default function Project() {
   return (
@@ -41,7 +41,6 @@ export default function Project() {
               </div>
             </div>
 
-            {/* Project Card 2 */}
             <div className="bg-white rounded-xl shadow-md overflow-hidden hover:animate-pulse">
               <div className="flex flex-col lg:flex-row">
                 <div className="flex-1 p-5">
@@ -72,9 +71,7 @@ export default function Project() {
 
           <hr className="my-5" />
 
-          {/* Second Row */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
-            {/* Project Card 3 */}
             <div className="bg-white rounded-xl shadow-md overflow-hidden hover:animate-pulse">
               <div className="flex flex-col lg:flex-row">
                 <div className="p-5 flex-1">
@@ -102,12 +99,11 @@ export default function Project() {
               </div>
             </div>
 
-            {/* Project Card 4 */}
             <div className="bg-white rounded-xl shadow-md overflow-hidden hover:animate-pulse">
               <div className="flex flex-col lg:flex-row">
                 <div className="flex-1 p-5">
                   <img
-                    src={Project4}
+                    src={App4}
                     alt="project4"
                     className="w-32 h-32 lg:w-40 lg:h-40 mx-auto rounded-full"
                   />
