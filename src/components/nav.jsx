@@ -30,9 +30,7 @@ const Nav = () => {
 
   return (
     <>
-      {/* Navbar Container */}
       <div className="flex items-center justify-between bg-slate-800 px-5 py-4 lg:px-10 lg:py-4 lg:flex-row">
-        {/* Logo Section */}
         <a
   href="#"
   className="text-white font-mono text-3xl sm:text-4xl md:text-5xl tracking-wider flex items-center cursor-default"
@@ -41,8 +39,6 @@ const Nav = () => {
   <span className="text-lg sm:text-xl md:text-2xl">Myportfolio</span>
 </a>
 
-
-        {/* Desktop Links */}
         <div className="hidden lg:flex space-x-4">
           <a
             href="#skills"
@@ -66,7 +62,6 @@ const Nav = () => {
           </a>
         </div>
 
-        {/* Mobile Menu Icon */}
         <div className="lg:hidden">
           {toggle ? (
             <AiOutlineClose
