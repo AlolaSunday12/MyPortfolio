@@ -12,7 +12,6 @@ const Hero = () => {
 
   return (
     <section className="flex flex-col lg:flex-row justify-around items-center p-5 lg:p-10 space-y-10 lg:space-y-0 text-white">
-      {/* Left Section */}
       <div className="w-full lg:w-1/3 text-center lg:text-left px-5">
         <p className="text-2xl sm:text-4xl mb-3 text-slate-300">I'm</p>
         <h1 className="text-3xl sm:text-6xl">Alola Sunday Joseph</h1>
@@ -55,7 +54,6 @@ const Hero = () => {
           {showMore ? "Show less" : "Show more..."}
         </button>
 
-        {/* Social Media Icons */}
         <div className="flex flex-wrap justify-center lg:justify-start mt-5 gap-4">
           <a href="https://www.facebook.com/alola.sundayjoseph?mibextid=ZbWKwL" target="_blank" rel="noopener noreferrer">
             <BsFacebook size={50} className="border-2 sm:border-4 hover:border-stone-950 rounded-full" />
