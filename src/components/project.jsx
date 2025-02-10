@@ -19,17 +19,17 @@ export default function Project() {
               <div className="flex flex-col lg:flex-row">
                 <div className="p-5 flex-1">
                   <div className="uppercase tracking-wide text-sm text-indigo-500 font-semibold">
-                    Commerce
+                    Book management API
                   </div>
                   <a
-                    href="https://github.com/AlolaSunday12/comm-backend.git"
+                    href="https://github.com/AlolaSunday12/book-nestjs.git"
                     className="text-indigo-500 hover:underline"
                   >
                     View Project
                   </a>
                   <p className="mt-2 text-slate-500">
-                    This is an online-shop design for convenient and secure shopping
-                    experiences.
+                  A secure and efficient backend for managing books, enabling users to,
+                  perform CRUDE oprations with maximum security.
                   </p>
                 </div>
                 <div className="flex-1 p-5">
@@ -77,17 +77,17 @@ export default function Project() {
               <div className="flex flex-col lg:flex-row">
                 <div className="p-5 flex-1">
                   <div className="uppercase tracking-wide text-sm text-indigo-500 font-semibold">
-                    GoogleAuth
+                  Commerce
                   </div>
                   <a
-                    href="https://github.com/AlolaSunday12/GoogleAuth.git"
+                    href="https://github.com/AlolaSunday12/comm-backend.git"
                     className="text-indigo-500 hover:underline"
                   >
                     View Project
                   </a>
                   <p className="mt-2 text-slate-500">
-                  Google Auth enables secure login using Google accounts via OAuth 2.0,
-                  eliminating the need for new passwords.
+                  This is an online-shop design for convenient and secure shopping
+                  experiences.
                   </p>
                 </div>
                 <div className="flex-1 p-5">
@@ -111,17 +111,17 @@ export default function Project() {
                 </div>
                 <div className="p-5 flex-1">
                   <div className="uppercase tracking-wide text-sm text-indigo-500 font-semibold">
-                    ToDo App
+                    GoogleAuth
                   </div>
                   <a
-                    href="https://github.com/AlolaSunday12/TODO-App"
+                    href="https://github.com/AlolaSunday12/GoogleAuth.git"
                     className="text-indigo-500 hover:underline"
                   >
                     View Project
                   </a>
                   <p className="mt-2 text-slate-500">
-                    A ToDo App designed to organize tasks and boost productivity. It features
-                    simple and efficient task management tools.
+                  Google Auth enables secure login using Google accounts via OAuth 2.0,
+                  eliminating the need for new passwords.
                   </p>
                 </div>
               </div>
