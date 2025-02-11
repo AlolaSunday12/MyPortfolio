@@ -53,7 +53,7 @@ const Nav = () => {
             Projects
           </a>
           <a
-            href="/Resume.pdf"
+            href="/Resume_new.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="text-white hover:bg-stone-300 hover:text-black rounded-full px-4 py-2 text-lg"
@@ -109,7 +109,7 @@ const Nav = () => {
             </li>
             <li>
               <a
-                href="/Resume.pdf"
+                href="/Resume_new.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-white hover:bg-stone-300 hover:text-black rounded-full px-6 py-3 text-lg"
